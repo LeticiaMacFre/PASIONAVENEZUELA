@@ -51,7 +51,7 @@ public class Calling : MonoBehaviour
 
     IEnumerator CounterToCall()
     {
-        yield return new WaitForSeconds(Random.Range(2.5f, 5.5f));
+        yield return new WaitForSeconds(Random.Range(2.5f, 8.5f));
         isCalling = true;
         IsCalling();
         StopCoroutine(CounterToCall());
@@ -62,7 +62,7 @@ public class Calling : MonoBehaviour
         audioS.Stop();
         yield return new WaitForSeconds(0.5f);
         audioS.PlayOneShot(voice);
-        yield return new WaitForSeconds(8.0f);
+        yield return new WaitForSeconds(11.0f);
         callApp.SetActive(false);
         StopCoroutine(PlayCall());
     }
