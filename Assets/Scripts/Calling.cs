@@ -47,6 +47,8 @@ public class Calling : MonoBehaviour
         isCalling = false;
         callApp.SetActive(false);
         StartCoroutine(CounterToCall());
+        audioS.Stop();
+
     }
 
     IEnumerator CounterToCall()
