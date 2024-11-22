@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Director : MonoBehaviour
 {
+    bool Quizcomecar;
 
 
     // Start is called before the first frame update
@@ -13,8 +14,8 @@ public class Director : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void FixxedUpdate()
     {
-        
+
     }
 }

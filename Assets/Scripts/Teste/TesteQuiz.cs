@@ -15,6 +15,7 @@ public class TesteQuiz : MonoBehaviour
     public TMP_Text TerceiraOpcao;
     public TMP_Text QuartaOpcao;
 
+    public int limitedetempo;
 
     // Start is called before the first frame update
     void Start()

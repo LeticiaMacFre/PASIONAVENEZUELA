@@ -6,7 +6,9 @@ public class Calling : MonoBehaviour
 {
     [SerializeField] private AudioClip voice;
     [SerializeField] private AudioClip ringging;
+    [SerializeField] private AudioClip message;
     [SerializeField] private GameObject callApp;
+    [SerializeField] private GameObject notificaSms;
     private AudioSource audioS;
     [SerializeField] private bool isCalling = false;
 
@@ -14,6 +16,7 @@ public class Calling : MonoBehaviour
     void Start()
     {
         audioS = GetComponent<AudioSource>();
+        notificaSms.SetActive(false);
         callApp.SetActive(false);
         StartCoroutine(CounterToCall());
     }
@@ -47,8 +50,6 @@ public class Calling : MonoBehaviour
         isCalling = false;
         callApp.SetActive(false);
         StartCoroutine(CounterToCall());
-        audioS.Stop();
-
     }
 
     IEnumerator CounterToCall()
@@ -67,6 +68,7 @@ public class Calling : MonoBehaviour
         yield return new WaitForSeconds(11.0f);
         callApp.SetActive(false);
         StopCoroutine(PlayCall());
+        NovaMensagem();
     }
 
     IEnumerator VibraCall()
@@ -80,5 +82,11 @@ public class Calling : MonoBehaviour
         }while(isCalling);
 
         StopCoroutine(VibraCall());
+    }
+
+    public void NovaMensagem()
+    {
+        audioS.PlayOneShot(message);
+        notificaSms.SetActive(true);
     }
 }
