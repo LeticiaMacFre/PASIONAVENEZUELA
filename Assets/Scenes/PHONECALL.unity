@@ -3740,67 +3740,72 @@ PrefabInstance:
     - target: {fileID: 836311551566019787, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 836311551566019787, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 836311551566019787, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 907.82
       objectReference: {fileID: 0}
     - target: {fileID: 836311551566019787, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 214.5
       objectReference: {fileID: 0}
     - target: {fileID: 836311551566019787, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 478.0812
       objectReference: {fileID: 0}
     - target: {fileID: 836311551566019787, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -137.25
       objectReference: {fileID: 0}
     - target: {fileID: 3811125396224492202, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3811125396224492202, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3811125396224492202, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 907.82
       objectReference: {fileID: 0}
     - target: {fileID: 3811125396224492202, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 214.5
       objectReference: {fileID: 0}
     - target: {fileID: 3811125396224492202, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 478.0812
       objectReference: {fileID: 0}
     - target: {fileID: 3811125396224492202, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -386.75
       objectReference: {fileID: 0}
     - target: {fileID: 5208468498835758472, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}
       propertyPath: m_Name
       value: Tela AR
+      objectReference: {fileID: 0}
+    - target: {fileID: 5208468498835758472, guid: 4134fb06d340dc34eb05e96d9bdb6750,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5292282795986157422, guid: 4134fb06d340dc34eb05e96d9bdb6750,
         type: 3}

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: 14bd8a1fbbca7d84099be67f0001ab81
+  - enabled: 1
     path: Assets/Scenes/PHONECALL.unity
     guid: efac32d19110f91468ec068badf49f7c
   - enabled: 1
@@ -20,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Arquitetura.unity
     guid: fdbee954d5f2b8b42ab4e56019b528e4
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 5c5ee1da9f8d28d47ad76c178a0cd496
+  - enabled: 1
+    path: Assets/Scenes/Config.unity
+    guid: d56ce3192a40f7b4d90a4cf9feb4290a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
